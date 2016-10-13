@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>求是潮秋季纳新</title>
+    <link type="text.css"  rel="stylesheet" href="style.css">
+    <link type="image/x-icon" rel="shortcut icon" href="image/favicon.ico">
+    <script src="check.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+</head>
+
+
+<body>
+
+<h1 id="hh">求是潮秋季纳新报名表<img src="image/favicon.ico" height="85" alt="LOGO"></h1><hr/>
+    <div id="txt">
+         <h2>
+              <a target="_blank" href="http://www.qsc.zju.edu.cn/"><img src="image/img-f.png" id="fl"></a>
+              <form id="theform" method="post" action="">
+                   姓名<br/>
+                   <input type="text" name="name"  onblur="onblus1()" class="st" id="names" required><br>
+
+                   学号<br/>
+                   <input type="text"  onblur="onblus2()" class="st" id="numm" required><br/>
+
+                   性别<br/>
+                   <select name="xb" class="ss" >
+                       <option value="1">汉纸</option>
+                       <option value="2">妹纸</option>
+                       <option value="3">保密</option>
+                   </select>
+                   <br/>
+           <!-- <input type="submit">  -->
+                  年级<br/>
+                  <select name="age" class="ss" >
+                      <option value="11">大一</option>
+                      <option value="22">大二</option>
+                      <option value="33">大三</option>
+                      <option value="44">大四</option>
+                      <option value="55">更高</option>
+                  </select>
+                   <br/>
+                  专业/大类<br/>
+                  <input type="text" name="type" onblur="onblus3()" class="st" id="types" required>
+                         <br/>
+                  手机长号<br/>
+                  <input type="text" name="phone" onblur="onblus4()" class="st" id="phones" required>
+                  <br/>
+
+                  第一志愿<br/>
+                   <select name="choice1" class="ss" required>
+                      <option value="c0">志愿还是要选的</option>
+                      <option value="c1">人力资源部门</option>
+                      <option value="c2">产品运营部门</option>
+                      <option value="c3">推广策划中心</option>
+                      <option value="c4">新闻资讯中心</option>
+                      <option value="c5">技术研发中心</option>
+                      <option value="c6">设计与创意中心</option>
+                      <option value="c7">水朝夕工作室</option>
+                      <option value="c8">摄影部</option>
+                      <option value="c9">视频团队主持人</option>
+                      <option value="c10">视频团队摄像与剪辑</option>
+                  </select>
+                         <br/>
+                  第二志愿<br/>
+                  <select name="choice2" class="ss">
+                      <option value="cc0">志愿还是要选的</option>
+                      <option value="cc1">人力资源部门</option>
+                      <option value="cc2">产品运营部门</option>
+                      <option value="cc3">推广策划中心</option>
+                      <option value="cc4">新闻资讯中心</option>
+                      <option value="cc5">技术研发中心</option>
+                      <option value="cc6">设计与创意中心</option>
+                      <option value="cc7">水朝夕工作室</option>
+                      <option value="cc8">摄影部</option>
+                      <option value="cc9">视频团队主持人</option>
+                      <option value="cc10">视频团队摄像与剪辑</option>
+                  </select>
+                  <br/>
+                  服从分配<br/>
+                  <select name="change" class="ss">
+                      <option value="yes">是</option>
+                      <option value="no">否</option>
+                  </select>
+                  <br/>
+
+                  自我介绍<br/>
+                  <textarea  class="st" id="ins" onblur="onblus5()" required></textarea>
+                  <br/>
+                  与我们分享你的作品<br/>(可选)
+                  <a target="_blank" href="http://box.zjuqsc.com/"  title="Click me~">求是潮Box</a>
+                      <br/>
+                  <input type="text" name="work" placeholder="请填写Box提取码~"  class="st">
+                       <br/>
+                  求照片~(可选)<br/>
+                  <input type="text" name="photo" placeholder="请填写Box提取码~"  class="st">
+                  <br/><br/>
+                  <input type="submit"  value="提交报名表" class="button" id="submitbutton"
+                         title="酷爱提交吧~"
+                  >
+
+             </form>
+         </h2>
+
+      </div>
+
+</body>
+
+</html>

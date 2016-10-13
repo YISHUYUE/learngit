@@ -1,0 +1,89 @@
+body{
+       color: #FFFFCC;
+       font-family: 幼圆,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+       font-size: medium;
+       line-height:2.3rem;
+       background-image: url("image/img1.png");
+       background-repeat:repeat-x ;
+       background-size:100% 100%;
+       background-attachment: fixed}
+
+a:link{color:silver;
+        text-decoration:none;
+        border-bottom:thin dotted silver;}
+a:visited{color: dimgray;
+           text-decoration:none;
+           border-bottom:thin dotted dimgray;}
+
+#fl{
+    width: 6rem;
+    float:right;
+}
+
+.st{
+    padding: 4px 10px;
+    height: 20px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.ss{
+    padding: 4px 10px;
+    height: 30px;
+    line-height: 20px;
+    position: relative;
+    cursor: pointer;
+    color: #888;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#ins{
+    height: 200px;
+    width:300px;
+}
+
+#hh{font-size: 2rem;
+    text-align: center;
+     }
+
+#txt{
+    margin-left: auto;
+    margin-right:auto;
+    width: 20rem;
+    padding: 2.5rem;
+    border-width: medium;
+    border-style: groove;
+    border-color: white;
+    border-radius: 2rem;
+}
+
+.button {
+    margin:0 auto;
+    font-family: 幼圆,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu;
+    font-size: 1.4rem;
+    width: 14rem;
+    letter-spacing:0.7rem;
+    display: inline-block;
+    padding: 0.6rem;
+    background: -webkit-gradient(linear, left top, left bottom, from(#f2f2f2), to(#FFF));
+    background: linear-gradient(#f2f2f2, #FFF);
+    border-radius: 12rem;/* 边框圆角 */
+    background-color: #1B9AF7;
+    border-color: #1B9AF7;
+    color:#1B9AF7;
+    -webkit-box-shadow: inset 0 0.1rem 0.3rem rgba(0, 0, 0, 0.04);
+    box-shadow: inset 0 0.1rem 0.3rem rgba(0, 0, 0, 0.04)  }
+
+
+
